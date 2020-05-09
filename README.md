@@ -74,8 +74,8 @@ ladder_jump = [
 def welcome_msg():
     msg = """
     Welcome to Snake and Ladder Game.
-    Version: 1.0.0
-    Developed by: https://www.pythoncircle.com
+    
+    
 
     Rules:
       1. Initally both the players are at starting position i.e. 0. 
