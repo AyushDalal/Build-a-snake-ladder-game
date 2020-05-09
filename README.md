@@ -4,12 +4,12 @@ import time
 import random
 import sys
 
-# just of effects. add a delay of 1 second before performing any action
+
 SLEEP_BETWEEN_ACTIONS = 1
 MAX_VAL = 100
 DICE_FACE = 6
 
-# snake takes you down from 'key' to 'value'
+
 snakes = {
     8: 4,
     18: 1,
@@ -28,7 +28,6 @@ snakes = {
     99: 63
 }
 
-# ladder takes you up from 'key' to 'value'
 ladders = {
     3: 20,
     6: 14,
@@ -149,7 +148,7 @@ def check_win(player_name, position):
     if MAX_VAL == position:
         print("\n\n\nThats it.\n\n" + player_name + " won the game.")
         print("Congratulations " + player_name)
-        print("\nThank you for playing the game. Please visit https://www.pythoncircle.com\n\n")
+        print("\nThank you for playing the game. ")
         sys.exit(1)
 
 
